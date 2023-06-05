@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: center;
+}
+
+a {
+    text-decoration: auto;
+    color: #272727;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-image: url(../assets/images/bg.png);
+    width: 1920px;
+    height: 701px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    padding-bottom: 62px;
+    ;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 962px;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 62px;
+}
+
+.top_contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_top_link {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.header_center {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 962px;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 62px;
+    flex-direction: column;
+}
+
+.header_name {
+    align-self: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    margin-bottom: 68px;
+}
+
+.colortext {
+    color: #FF8900;
+}
+
+.header_text {
+    align-self: start;
+    padding-top: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    width: 487px;
+}
+
+.header_button {
+    width: 260px;
+    height: 60px;
+    left: 377px;
+    top: 485px;
+    background: radial-gradient(71.43% 91.94% at 50.31% 0%, #FFDFB9 0%, #FF8900 100%);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    align-self: start;
+    margin-top: 50px;
+    cursor: url(/assets/images/cursor.png), pointer;
+}
+
+.advantages {
+    display: flex;
+    padding-top: 30px;
+    width: 962px;
+    align-items: center;
+    margin-bottom: 62px;
+    flex-direction: column;
+}
+
+.advantages_top {
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-template-rows: 300px 300px;
+    gap: 170px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.advantages_card_img {
+    width: 175px;
+    height: 219px;
+}
+
+.advantages_card_text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.about {
+    width: 1919px;
+    height: 813px;
+    background-image: url(/assets/images/bg2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.about_content {
+    width: 754px;
+    height: 596px;
+    border-radius: 36px;
+    background: #FFFFFF;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_content_top {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.about_content_text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.035em;
+    color: #000000;
+    margin-top: 28px;
+    line-height: 2;
+    width: 703px;
+}
+
+.about_content_img {
+    position: absolute;
+    width: 455px;
+    height: 550px;
+    left: 1010px;
+    top: 1890px;
+    opacity: 0.6;
+}
+
+.houses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.houses_top {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 107px;
+}
+
+.houses_project {
+    display: grid;
+    grid-template-columns: 534px 534px;
+    grid-template-rows: 901px 901px;
+    gap: 99px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.houses_project_card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.houses_project_card_img {
+    margin-bottom: 50px;
+}
+
+.houses_project_card_top {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 131.4%;
+}
+
+.houses_project_card_text {
+    width: 414px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.houses_project_card_button {
+    width: 286px;
+    height: 65px;
+    left: 1134px;
+    top: 4350px;
+    background: radial-gradient(77.7% 100% at 50% 0%, #FFCB8E 0%, #FF8900 100%);
+    border-radius: 71px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 116%;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: url(/assets/images/gift.png), pointer;
+}
+
+.excursion {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/images/bg3.png);
+    width: 1920px;
+    height: 950px;
+    align-items: center;
+}
+
+.excursion_top_head {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 79px;
+    margin-bottom: 24px;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.li:before {
+    content: url(/assets/images/mark.png)
+}
+
+.excursion_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.excursion_top {
+    margin-bottom: 35px;
+}
+
+.excursion_content_left {
+    width: 478px;
+}
+
+.excursion_content_left_text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.035em;
+    margin-bottom: 30px;
+    margin-top: 47px;
+}
+
+.excursion_content_left_list {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.excursion_content_right {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 478px;
+    height: 567px;
+    border: 0.971711px solid #000000;
+    border-radius: 19.4342px;
+}
+
+.excursion_content_right_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.excursion_content_right_form_top {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35.9533px;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.excursion_content_right_form_text {
+    margin-top: 17px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130.7%;
+    text-align: center;
+    color: rgba(75, 44, 18, 0.4);
+    margin-bottom: 37px;
+}
+
+.input {
+    width: 378px;
+    height: 92px;
+    background: #EEEEEE;
+    border: 1px solid #989898;
+    border-radius: 19px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.3776px;
+    line-height: 137.5%;
+    text-align: center;
+    color: #C5C5C5;
+}
+
+.excursion_content_right_button {
+    width: 274px;
+    height: 60px;
+    background: radial-gradient(71.43% 91.94% at 50.31% 0%, #FFCF96 0%, #FF9A26 100%);
+    border-radius: 68px;
+    margin-top: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.3432px;
+    line-height: 114.2%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1920px;
+    height: 234px;
+}
+
+.footer_content {
+    display: flex;
+    padding-top: 30px;
+    width: 962px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contacts {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #272727;
+    gap: 10px;
+}
