@@ -13,6 +13,10 @@ a {
     color: #272727;
 }
 
+a:hover {
+    color: red;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -21,8 +25,8 @@ a {
 
 .header {
     background-image: url(/assets/images/bg.png);
-    width: 100vw;
-    height: 701px;
+    width: 100%;
+    background-position: center;
     display: flex;
     align-items: baseline;
     flex-direction: column;
@@ -103,13 +107,21 @@ a {
     cursor: url(/assets/images/cursor.png), pointer;
 }
 
+button:hover {
+    border: 3px dotted #3a7999;
+    color: #3a7999;
+    background: rgba(0, 0, 0, 0);
+}
+
 .advantages {
     display: flex;
     padding-top: 30px;
-    width: 962px;
+    width: 50vw;
     align-items: center;
     margin-bottom: 62px;
     flex-direction: column;
+    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .advantages_top {
@@ -122,8 +134,8 @@ a {
 
 .cards {
     display: grid;
-    grid-template-columns: 230px 230px 230px;
-    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 170px;
     align-self: center;
     margin-top: 50px;
@@ -139,16 +151,18 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 23px;
+    word-break: break-word;
 }
 
 .about {
-    width: 1919px;
-    height: 813px;
+    width: 100vw;
     background-image: url(/assets/images/bg2.png);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .about_content {
@@ -206,8 +220,8 @@ a {
 
 .houses_project {
     display: grid;
-    grid-template-columns: 534px 534px;
-    grid-template-rows: 901px 901px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 99px;
     align-self: center;
     margin-top: 50px;
@@ -261,9 +275,10 @@ a {
     display: flex;
     flex-direction: column;
     background-image: url(/assets/images/bg3.png);
-    width: 1920px;
-    height: 950px;
+    width: 100vw;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .excursion_top_head {
@@ -286,6 +301,7 @@ a {
 .excursion_content {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .excursion_top {
