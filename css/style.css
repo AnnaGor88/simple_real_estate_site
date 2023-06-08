@@ -20,7 +20,7 @@ a {
 }
 
 .header {
-    background-image: url(../assets/images/bg.png);
+    background-image: url(/assets/images/bg.png);
     width: 1920px;
     height: 701px;
     display: flex;
